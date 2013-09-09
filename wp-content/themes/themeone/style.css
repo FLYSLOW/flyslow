@@ -1,0 +1,57 @@
+/*
+Theme Name: Theme One
+Theme URI: http://wordpress.org/extend/themes/twentyeleven
+Author: Fay
+Author URI: http://FLYSLOW.net/
+Description: exercise theme.
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: One
+Text Domain: FLYSLOW
+*/
+/* reset start */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
+big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time,
+mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+/* reset end */
+
+/* common start */
+a{color: #09c;}
+a:hover{color: #f60;}
+a:visited{color: #551A8B;}
+.clearfix:after{visibility: hidden; display: block; height: 0; font-size: 0; content: '\0020'; clear: both;}
+.clearfix{zoom: 1;} /* for IE6 IE7 */
+/* common end */
+
+html, body, #page, #side, #main{height: 100%; overflow: hidden;}
+body{font-family: Tahoma, Arial, Microsoft Yahei, SimSun, Verdana, sans-serif;}
+#page{}
+#side{width: 200px; float: left; box-shadow: 3px 0 10px 0 #ccc; background-color: #f5f5f5;}
+#main{margin-left: 215px; overflow: auto;}
+
+
+#site-name{margin-top: 30px; margin-bottom: 20px; font-size: 11px; color: #888; text-align: center;}
+#site-name h1{font-size: 36px; font-family: Yanone Kaffeesatz, Century Gothic, Microsoft Yahei, Tahoma; text-transform: uppercase;}
+#site-name h1 a, #site-name h1 a:visited{color: #00A19E; text-decoration: none;}
+#site-name h1 a:hover{color: #7cc576;}
+
+nav.main{text-align: right; text-transform: uppercase; font-family: Yanone Kaffeesatz;}
+nav.main a{display: block; height: 30px; line-height: 30px; overflow: hidden; margin-left: 4px; -ms-text-overflow: ellipsis; text-overflow: ellipsis; margin-top: 4px; margin-bottom: 4px; padding-right: 30px; text-decoration: none; color: #666;
+transition: all .3s ease-in;}
+nav.main a.current, nav.main a:hover{background-color: #e6e6e6; color: #000;}
+
+.grid-wrap{min-width: 950px; max-width: 1300px;}
+.grid-main{float: left; width: 100%;}
+.main-wrap{background-color: #f9f9f9; height: 300px; margin-right: 315px;}
+.grid-extra{background-color: #f6f6f6; height: 300px; float: left; width: 300px; margin-left: -300px;}
